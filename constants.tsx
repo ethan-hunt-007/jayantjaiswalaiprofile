@@ -3,13 +3,13 @@ import { Stat, Experience, Achievement, Article, TravelDestination, Hobby, Socia
 
 export const PROFILE = {
   name: "Jayant Jaiswal",
-  role: "Senior Product Architect at TechFlow",
+  role: "Engineering Manager at Zeta",
   location: "San Francisco, CA | Building scalable systems",
   avatar: "https://lh3.googleusercontent.com/aida-public/AB6AXuAqH-1VHIkl8V4bEXiVcgHrr5zjIx7tw9WSbD98vUk9ybMY-5-gOo_X7g5HWKVJz26ZuoA9E1soaHwQy8X8QZn0b_YcOzCgNtU1eMKSR2RoyamUN0UjVZlIRpxrMfWOH8EEMDCpQ77Vfe2_QnopSECpEHUHSWXH6S3QdQ5pv6S22JDiuYzkz8gIsr2HSLkIIfNIyFSwIaZ5oYLcJ_DHMrzLzrXXiBFEnc8JU4u8l02akF3bpjSKJL1PvW-KvWVY3h3tWL5b-Y0rDcPy"
 };
 
 export const STATS: Stat[] = [
-  { value: "12+", label: "Years Exp" },
+  { value: "9.5+", label: "Years Exp" },
   { value: "50+", label: "Projects" },
   { value: "$40M", label: "Rev Impact" },
   { value: "200%", label: "Growth" }
@@ -17,31 +17,59 @@ export const STATS: Stat[] = [
 
 export const EXPERIENCE: Experience[] = [
   {
-    company: "TechFlow",
-    role: "Senior Product Architect",
-    period: "2021 - Present",
-    description: "Spearheaded the architectural overhaul of the core platform, enabling scalability for over 5 million concurrent users. Directed cross-functional teams to integrate AI-driven analytics.",
+    company: "Zeta",
+    role: "Engineering Manager",
+    period: "July 2025 - Present",
+    description: "Leading engineering squads to scale Zeta's payment stack, driving reliability and delivery velocity while mentoring a multidisciplinary team of engineers and product leads.",
     icon: "storefront",
     metrics: [
-      { label: "Revenue Lift", value: "40% YoY", icon: "trending_up" },
-      { label: "Team Growth", value: "5 → 20 Eng", icon: "groups" },
+      { label: "Transactions", value: "5M+/day", icon: "trending_up" },
+      { label: "Team Growth", value: "6 → 15 Eng", icon: "groups" },
       { label: "Uptime", value: "99.99%", icon: "rocket_launch" }
     ]
   },
   {
-    company: "DataCorp",
-    role: "Lead Engineer",
-    period: "2018 - 2021",
-    description: "Managed data infrastructure migration to cloud-native environments. Reduced infrastructure costs by 30% while improving query performance by 2x.",
-    icon: "database",
-    tags: ["Cloud Migration", "PostgreSQL", "Team Leadership"]
+    company: "Zeta",
+    role: "Lead Software Engineer (Mobile)",
+    period: "July 2023 - June 2025",
+    description: "Owned the mobile engineering roadmap, launching mission-critical payment flows and mentoring senior ICs across iOS and Android squads.",
+    icon: "smartphone",
+    tags: ["Mobile Platforms", "Payments", "Team Leadership"]
   },
   {
-    company: "StartupInc",
-    role: "Software Engineer",
-    period: "2016 - 2018",
-    description: "Developed the initial MVP for the flagship product. Implemented real-time websocket communication layer.",
-    icon: "code"
+    company: "Zeta",
+    role: "Senior Software Engineer (iOS)",
+    period: "October 2021 - June 2023",
+    description: "Built and optimized Zeta's iOS payments and card management experiences with focus on latency, reliability, and PCI compliance.",
+    icon: "apple"
+  },
+  {
+    company: "Grab",
+    role: "Senior Software Engineer (iOS)",
+    period: "July 2020 - October 2021",
+    description: "Shipped high-scale consumer features for Grab's super-app, improving checkout conversion and app performance across SEA markets.",
+    icon: "commute"
+  },
+  {
+    company: "Grab",
+    role: "Software Engineer (iOS)",
+    period: "July 2019 - June 2020",
+    description: "Contributed to Grab's iOS ride-hailing and payments modules, focusing on UI performance, offline resilience, and analytics.",
+    icon: "directions_car"
+  },
+  {
+    company: "UrbanCompany",
+    role: "SDE2 (iOS)",
+    period: "April 2018 - June 2019",
+    description: "Led end-to-end delivery of iOS features for on-demand services, improving booking funnels and real-time tracking reliability.",
+    icon: "handyman"
+  },
+  {
+    company: "Roposo",
+    role: "SDE1 (iOS)",
+    period: "July 2016 - March 2018",
+    description: "Built core iOS experiences for a fast-growing social video platform, focusing on media pipelines and growth loops.",
+    icon: "camera_alt"
   }
 ];
 
